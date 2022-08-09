@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  height: 90px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.container-fluid {
+  background-image: url("../assets/imagemPrincipal.png");
+}
+
+body {
+  font-family: 'Overlock', cursive;
+  font-size: 20px;
+  color: black;
+  background-image: url("../assets/imagemPrincipal.png"); 
+}
+
+.destaque  {
+ color: #45A29E; 
+}
+
+.texto-secundario {
+  margin-top: 30px;
+  padding-left: 3%; 
+  color: #1F2833; 
+}
+
+.terceiro-texto {
+  color:#45A29E;
+  font-size: 22px;
+  padding-left: 3%;   
+  
+}
+
+.principal {
+  width: 100%;
+  height: 550px;
+  background-image: url("../assets/semfundo.png");
+  background-size: cover;
+  margin-bottom: 5%;
+  padding-left: 3%; 
+}
+
+.texto-secundario {
+font-size: 18px;
+height: 60px;
+font-size: 21px;
+text-decoration: underline #1F2833 1px;
+}  
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-saiba-mais {
+  background-color: #1F2833;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: .3s;
+  margin-top: 8%;
+}
+
+.btn-saiba-mais:hover {
+  transform: scale(1.2);
+}
+
+.btn-saiba-mais a{
+  color: #fff;
+  font-size: 18px;
+}
+
+.descricao {
+  font-size: 100%;
+  margin-left: 45%;
+  color: #0055EC;
+  padding-top: 4%;
+}
+
+.texto {
+  font-family: 'Lobster', cursive;
+  font-size: 80px;
+  color: #1F2833;
+  padding-left: 3%;
+  padding-top: 8%;
+}
+
+.card {
+  padding: 2%;
+}
+
+.tituloCard {
+ 
+  font-family: 'Overlock', cursive;
+  font-size: 20px;
+  color: rgb(22, 17, 94);
+}
+
+img.imagem {
+  display: block;
+  margin: 0 auto;
+}
+
+.carrocel {
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+
+.texto2 {
+  color:#1F2833;
+  font-size: 50px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  text-decoration: underline #1F2833 4px;
+  text-align: center;
+}
+
+.texto1{
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.texto3{
+  margin-bottom: 5%;
+  margin-top: 12%;
+}
+
+.rodape {
+  margin-top: 7%;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #45A29E;
+  color: white;
+  width: 100%;
+}
+
+.card-text {
+  font-family: 'Overlock', cursive;
+  font-size: 15px;
+}
+
+.card-header {
+  font-family: 'Overlock', cursive;
+  font-size: 25px;
+  text-align: center;
+  
+}
+
+.texto-servico {
+  text-align: center;
+  margin-top: 5%;
+  background-color: #45A29E; 
+  color: white;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 5%;
+}
+
+.row{
+  margin-left: 10%;
+}
+
+#titulo {
+  font-family: 'Overlock', cursive;
+  font-size: 50px;
+  color:  rgb(22, 17, 94);
+  margin-top: 5%;
+  margin-left: 42%;
+}
+#subtitulo {
+  margin-left: 42%;
+}
+
+.primeiroCampo {
+  margin-top: 1%;
+}
+
+.grupo{
+  font-family: 'Overlock', cursive;
+  font-size: 110%;
+  color: rgb(22, 17, 94);
+  margin-left: 25%;
+  margin-top: -2%;
+  justify-content: center;
+}
+
+.container-btn2 {
+  display: flex;
+  justify-content: center;
+  margin-right: 40%;
+}

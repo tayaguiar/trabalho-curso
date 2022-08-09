@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UP Site</title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./assets/icone.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+  <body class="fundo">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light nav-bar" padding: 10px 40px;>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./assets/UP SITES-logo.png" alt="logo" width="120px" />
+          </a>
+          
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./quemSomos.html">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./serviço.html">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./orcamento.html">Orçamento</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+</head>
+  <body class="fundo">
+    <div>
+      <h1 id="titulo">Orçamento</h1>
+      <p id="subtitulo">Complete suas informações</p>
+      <br/>
+    </div>
+    <form>
+      <fieldset class="grupo">  
+        <div class="primeiroCampo"> 
+        <label for="nome">Nome Completo:</label>
+        <input type="text" name="nome" id="nome" required> 
+        </div>
+
+        <div class="primeiroCampo">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required>
+          </div>
+
+          <div class="primeiroCampo">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="tel" id="tel" required>
+            </div> 
+
+        <div class="campo">
+        <label>Escolha o tipo de site:</label>
+            <input type="radio" name="personalizado" value="personalizado"> Personalizado
+            <input type="radio" name="SobMedida"id="SobMedida"> Sob Medida
+          </div>
+        
+        <div class="campo">
+          <label>Deseja adicionais para seu site?</label>
+          <input type="radio" name="Blog" value="Blog"> Blog
+          <input type="radio" name="Multi-idioma" value=", Multi-idioma"> Multi-idioma
+          <input type="radio" name="Área de membros" value="Área de membros"> Área de membros
+        </div>
+
+        <div>
+            <label>Deseja adicionar mais alguma informação?</label>
+            <input type="text">
+       <br> <br>
+       <div class="container-btn2">
+        <button class="btn-saiba-mais">
+          <a href="./orcamento.html">
+            ENVIAR
+          </a>
+        </button>
+      </div>
+
+       </fieldset>
+    </form>
+
+    <footer class="rodape">
+      <div class="logo">
+          <img src="assets/UP SITES-logo.png" width="120px" alt="Logo do rodapé" />
+          <p> &#9829; by Taynara Aguiar &#9829;</p>
+   </footer>  
+  </body>
+</html>
